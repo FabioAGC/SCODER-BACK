@@ -20,7 +20,7 @@ DB_PORT=5432
 DB_USERNAME=seu_usuario
 DB_PASSWORD=sua_senha
 DB_DATABASE=accounting_db
-
+```
 ### Executando a Aplicação
 
 ```bash
