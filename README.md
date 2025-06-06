@@ -12,14 +12,17 @@ npm install
 ```
 
 3. Crie um arquivo `.env` no diretório raiz com as seguintes variáveis:
+
 ```env
-PORT=3000
-DATABASE_URL=postgresql://usuario:senha@localhost:5432/nome_do_banco
-```
+
+DB_HOST=localhost
+DB_PORT=5432
+DB_USERNAME=seu_usuario
+DB_PASSWORD=sua_senha
+DB_DATABASE=accounting_db
 
 ### Executando a Aplicação
 
-#### Modo Desenvolvimento
 ```bash
 npm run dev
 ```
