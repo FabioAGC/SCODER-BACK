@@ -11,7 +11,7 @@ cd backend
 npm install
 ```
 
-3. Crie um arquivo `.env` no diretório raiz com as seguintes variáveis:
+3. Mude as variveis de ambiente em database.ts :
 
 ```env
 
